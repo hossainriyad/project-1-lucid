@@ -1,0 +1,506 @@
+/*======================
+  Google Font Integrate
+=======================*/
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,600,700&display=swap');
+
+/*================== 
+  GLOBAL CSS
+====================*/
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+}
+a {
+    text-decoration: none;
+}
+img {
+    max-width: 100%;
+    display: block;
+}
+li {
+    list-style: none;
+}
+.custom-btn {
+    display: block;
+    color:#fff;
+    width: 160px;
+    height: 50px;
+    font-size:14px;
+    font-weight: 700;
+    line-height: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 5px;
+    transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+}
+.heading {}
+.heading h5 {
+    color: #008ed6;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+}
+.heading h3 {
+    color: #1a1a1a;
+    font-size: 36px;
+    font-weight: 600;
+    padding-bottom:20px;
+}
+.heading .divider {
+    display: table;
+}
+
+
+
+
+
+/*=================
+  HEADER SECTION
+==================*/
+.header-section{
+    background:url('../images/banner-bg.jpg') no-repeat center top;
+    background-size: cover;
+}
+.header-section .banner-content-section .row {
+    align-items: center;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #fffefe;
+    font-weight:600;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: #fffefe;
+    background:url('../images/divider.png') no-repeat bottom center;
+}
+.banner-content-section{
+    padding-top:60px;
+}
+.banner-content {
+    color:#fff;
+    max-width:490px;
+}
+.banner-content h5 {
+    color: #008ed6;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    padding-bottom: 14px;
+}
+.banner-content h2 {
+    font-size: 48px;
+    font-weight: 600;
+    padding-bottom: 16px;
+    line-height: 1;
+}
+.banner-content p {
+    color: #999;
+    font-size: 18px;
+    padding-bottom:40px;
+}
+.banner-content ul li a.btn-download, .view-feature-button ul li a.btn-download {
+    margin-right:20px;
+    background:#008ed6;
+    border:1px solid #008ed6;
+}
+.banner-content ul li a.btn-feature, .view-feature-button ul li a.btn-feature {
+    background:transparent;
+    border:1px solid #454549;
+}
+.banner-content ul li a.btn-download:hover, .view-feature-button ul li a.btn-download:hover {
+    background:transparent;
+    border:1px solid #454549;
+    text-decoration: none;
+    color: #fff;
+}
+.banner-content ul li a.btn-feature:hover, .view-feature-button ul li a.btn-feature:hover {
+    background:#008ed6;
+    border:1px solid #008ed6;
+    text-decoration: none;
+    color: #fff;
+}
+.banner-image {
+    float: right;
+}
+
+
+
+/*====================
+  FEATURES SECTION
+======================*/
+.features-section {
+    padding:60px 0px;
+    border-bottom:1px solid #e8e6e66e;
+}
+.feature-content-section {
+    padding-top: 60px;
+}
+.feature-box {
+    border:2px solid transparent;
+    transition: all 0.4s ease-in-out;
+}
+.feature-box span {
+    display: block;
+    width:90px;
+    height: 90px;
+    line-height: 90px;
+    text-align: center;
+    font-size: 30px;
+    color:#008ed6;
+    border:1px solid #e0e0e0;
+    border-radius: 50%;
+    margin: 25px auto;
+    transition: all 0.4s ease-in-out;
+}
+.feature-box h3 {
+    font-size: 24px;
+    color:#1a1a1a;
+    padding-bottom:10px;
+    transition: all 0.4s ease-in-out;
+}
+.feature-box p {
+    font-size: 18px;
+    color:#999999;
+    padding:0 10px;
+}
+.feature-box:hover {
+    border:2px solid #008ed6;
+} 
+.feature-box:hover span{
+    border:1px solid #008ed6;
+} 
+.feature-box:hover h3 {
+    color:#008ed6;
+}
+
+
+
+/*================
+  ABOUT SECTION
+===================*/
+.about-section {
+    padding:70px 0 30px;
+}
+.about-section .row {
+    align-items: center;
+}
+.about-para {
+    padding:25px 0;
+}
+.about-para p {
+    font-size: 18px;
+    color:#999;
+}
+.about-feature-box span {
+    color: #44ace1;
+    float: left;
+    font-size: 18px;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    margin-right: 10px;
+
+}
+.about-feature-box p {
+    color: #1b1b1b;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+
+
+/*==========================
+  CUSTOMISE SECTION CSS
+============================*/
+
+.customize-section {
+    background: #f2f2f2;
+    padding:40px 0;
+}
+.customize-section .row {
+    align-items: center;
+}
+.customize-para {
+    padding-top: 20px;
+}
+.customize-para p {
+    font-size: 18px;
+    color:#999;
+}
+
+
+/*==========================
+  TESTIMONIAL SECTION CSS
+===========================*/
+.testimonial-section {
+    background:url('../images/testimonial-bg.jpg') no-repeat top center;
+    background-size: cover;
+    padding:60px 0;
+}
+.testimonial-section .heading h3 {
+    color:#fff;
+}
+.testimonial-content-section {
+    padding-top:70px;
+}
+.testimonial-content{}
+.testimonial-para {
+    padding-bottom:10px;
+}
+.testimonial-para p {
+    font-size: 20px;
+    font-style: italic;
+    color:#fff;
+}
+.testimonial-content .media {}
+.testimonial-content .media img {
+    width: auto;
+}
+.testimonial-content .media-body {}
+.testimonial-content .media-body h5 {
+    font-size: 16px;
+    color: #fff;
+}
+.testimonial-content .media-body p {
+    font-weight:700;
+    font-size:14px;
+    color:#fff;
+    text-transform: uppercase;
+}
+
+
+/*============================
+  VIEW FEATURES SECTION CSS
+==============================*/
+
+.view-feature-section {
+    background: #15141a;
+    padding:58px 0;
+}
+.view-feature-section .row {
+    align-items: center;
+}
+.view-feature-content p {
+    font-size: 36px;
+    color: #fff;
+    font-weight: 300;
+    margin:0;
+}
+.view-feature-content p span {
+    font-weight:600;
+}
+.view-feature-button {
+    float: right;
+}
+.view-feature-button a.btn-download {
+    margin: 0 !important;
+    margin-left: 10px !important;
+}
+
+
+/*======================
+  PRICING SECTION CSS
+=======================*/
+.pricing-section {
+    padding:50px 0;
+}
+.pricing-content-section {
+    padding-top:60px;
+}
+.pricing-box {
+    border:1px solid #e0e0e0;
+}
+.pricing-title {
+    padding:21px 0;
+}
+.pricing-title h3 {
+    color: #1a1a1a;
+    font-size: 24px;
+    font-weight: 700;
+    margin:0;
+    text-transform: uppercase;
+    transition: all 0.4s ease-in-out;
+}
+.pricing-box:hover .pricing-title h3 {
+    color:#008ed6;
+}
+.pricing-amount {
+    border-top:1px solid #e0e0e0;
+    border-bottom:1px solid #e0e0e0;
+    padding-bottom:25px;
+    transition: all 0.4s ease-in-out;
+}
+.pricing-amount p {
+    font-size: 60px;
+    color:#1a1a1a;
+    font-weight: 600;
+    margin: 0;
+    transition: all 0.4s ease-in-out;
+}
+.pricing-amount p sup {
+    font-size:33px;
+}
+.pricing-amount span {
+    font-size: 18px;
+    color: #999;
+    transition: all 0.4s ease-in-out;
+}
+.pricing-box:hover .pricing-amount {
+    background:#008ed6;
+    border-color:#008ed6;
+}
+.pricing-box:hover .pricing-amount p {
+    color:#fff;
+}
+.pricing-box:hover .pricing-amount span {
+    color:#fff;
+}
+.pricing-content {
+    padding:30px 25px;
+}
+.pricing-content p {
+    font-size: 18px;
+    color: #999;
+    padding-bottom:30px;
+}
+.pricing-content span {
+    color:#008ed6;
+}
+.pricing-content a.pricing-btn {
+    color:#008ed6;
+    border:1px solid #e0e0e0;
+    display: table;
+    margin: auto;
+    transition: all 0.4s ease-in-out;
+}
+.pricing-box:hover .pricing-content a.pricing-btn {
+    background:#008ed6;
+    border:1px solid #008ed6;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/*=====================
+  CONTACT SECTION CSS
+=======================*/
+.contact-section{
+    padding:60px 0 0;
+    background:#ededed;
+}
+.contact-content-section {
+    padding:40px 0 50px;
+}
+.contact-content {}
+.contact-content span {
+    color: #008ed6;
+    font-size: 24px;
+    display:inline-block;
+    padding-bottom:20px;
+}
+.contact-content p {
+    margin:0;
+    font-size: 18px;
+    color: #999;
+}
+.contact-form-section {
+    background:#15141a;
+    padding:50px;
+}
+.form-content .form-control {
+    background: transparent;
+    border: 1px solid #444348;
+    font-size: 14px;
+    padding:15px 10px;
+    font-weight:600;
+}
+.form-control:focus {
+    outline: none;
+    box-shadow: none;
+}
+.contact-message .contact-btn {
+    background: #008ed6;
+    display: inline-block;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    float: right;
+    transition: all 0.4s ease-in-out;
+}
+.contact-message a:hover {
+    color: #fff;
+    text-decoration: none; 
+}
+.contact-message .contact-btn:hover {
+    background: transparent;
+    border: 1px solid #444348;
+}
+.contact-message a:hover {
+    color: #fff;
+    text-decoration: none; 
+}
+
+/*===MAP SECTION===*/
+.map-section {
+    width: 100%;
+    margin-top: -65px;
+    z-index: 1;
+}
+
+
+
+
+/*=====================
+FOOTER SECTION CSS
+======================*/
+
+.footer-section {
+    background:#15141a;
+    padding:48px 0px 35px;
+}
+.footer-social-list {
+    margin-bottom:10px;
+}
+.footer-social-list a {
+    color: #444348;
+    font-size: 20px;
+    margin:0px 15px;
+    transition: all 0.4s ease-in-out;
+}
+.footer-social-list a:hover {
+    color:#008ed6;
+}
+.footer-content {}
+.footer-content p {
+    font-size:14px;
+    color: #444348;
+    font-weight:600;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
